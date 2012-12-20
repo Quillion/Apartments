@@ -41,6 +41,11 @@ public class Person
         this.cars.add(car);
     }
 
+    public int getCarCount()
+    {
+        return this.cars.size();
+    }
+
     public PhoneNumber getPhoneNumber()
     {
         return this.phone_numbers.get(0);
@@ -56,6 +61,11 @@ public class Person
         this.phone_numbers.add(phone_number);
     }
 
+    public int getPhoneCount()
+    {
+        return this.phone_numbers.size();
+    }
+
     public Locker getLocker()
     {
         return this.lockers.get(0);
@@ -69,5 +79,10 @@ public class Person
     public void addLocker(Locker locker)
     {
         this.lockers.add(locker);
+    }
+
+    public int getLockerCount()
+    {
+        return this.lockers.size();
     }
 }

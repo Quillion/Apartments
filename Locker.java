@@ -4,12 +4,7 @@ public class Locker
 
     public Locker()
     {
-        this("");
-    }
-
-    public Locker(String location)
-    {
-        this.location = location;
+        this.location = "";
     }
 
     public String getLocation()
