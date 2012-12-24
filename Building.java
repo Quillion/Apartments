@@ -14,7 +14,7 @@ public class Building
         this.apartments = new ArrayList<Suite>();
     }
 
-    public in getBuildingNumber()
+    public int getBuildingNumber()
     {
         return this.building_number;
     }
@@ -36,7 +36,7 @@ public class Building
 
     public Suite getApartment(int number)
     {
-        this.apartments.get(number);
+        return this.apartments.get(number);
     }
 
     public void addApartment(Suite apartment)
@@ -46,6 +46,6 @@ public class Building
 
     public int getApartmentCount()
     {
-        this.apartments.size();
+        return this.apartments.size();
     }
 }
